@@ -14,7 +14,7 @@ class Anagram
       each_word = each_word.split("")
       each_word.each do |a_letter|
         @word.include?(a_letter)
-      
+      end
     end
   end
   
