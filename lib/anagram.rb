@@ -10,7 +10,7 @@ class Anagram
   
   def match(words)
     words.each do |each_word|
-      
+      each_word.each do
     end
   end
   
