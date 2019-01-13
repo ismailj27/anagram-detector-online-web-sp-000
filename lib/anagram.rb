@@ -15,6 +15,7 @@ class Anagram
       each_word.each do |a_letter|
         @word.include?(a_letter)
       end
+      end
     end
   end
   
