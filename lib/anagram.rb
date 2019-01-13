@@ -15,6 +15,7 @@ class Anagram
         rtn_word << d_word
       end
     end
+    rtn_word
   end
   
 end
