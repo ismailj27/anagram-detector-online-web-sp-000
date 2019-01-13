@@ -11,7 +11,7 @@ class Anagram
   def match(words)
     rtn_word = []
     words.each do |d_word|
-      if (d_word.split("").sort.join == @word.split("").sort.join)
+      if (d_word.split("").sort == @word.split("").sort)
         rtn_word << d_word
       end
     end
