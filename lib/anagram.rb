@@ -10,8 +10,9 @@ class Anagram
   
   def match(words)
     rtn_arr
-    words. do |d_word|
-     (d_word.length == @word.length) && (d_word.split("").sort.join == @word.split("").sort.join)
+    words.each do |d_word|
+      if (d_word.split("").sort.join == @word.split("").sort.join)
+        
     end
   end
   
