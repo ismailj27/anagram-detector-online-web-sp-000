@@ -10,7 +10,7 @@ class Anagram
   
   def match(words)
     words.find do |d_word|
-     d_word.length == @word.length && d_word.sort == @wor
+     (d_word.length == @word.length) && (d_word.sort == @word.sort)
     end
   end
   
