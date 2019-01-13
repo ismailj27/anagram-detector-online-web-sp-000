@@ -12,7 +12,7 @@ class Anagram
     rtn_word = []
     words.each do |d_word|
       if (d_word.split("").sort.join == @word.split("").sort.join)
-        rtn_arr = 
+        rtn_word = 
     end
   end
   
